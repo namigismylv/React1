@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn-light{
+  background-color: white;
+  padding: 15px;
+}
+.lightMode{
+  background-color: white;
+  height: 100vh;
+
+}
+.light__mode__welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  
+}
+.light__mode__welcome p{
+  font-size: 50px;
+
+}
+.darkMode{
+  background-color: black;
+  height: 100vh;
+}
+.dark__mode__welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+.dark__mode__welcome p{
+  color: orange;
+  font-size: 50px;
+
+}
+.btn-dark{
+  background-color: black;
+  color: orange;
+  padding: 15px;
+  border: 2px solid orange;
+  
+}
